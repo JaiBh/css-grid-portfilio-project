@@ -453,14 +453,14 @@ Services
 
 /* small screen layout setup */
 @media screen and (min-width: 676px){
-  .service-center{
+  .services-center{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem 2rem
   }
 }
 @media screen and (min-width: 992px){
-  .service-center{
+  .services-center{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem 2rem
   }
