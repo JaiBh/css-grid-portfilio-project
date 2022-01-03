@@ -453,14 +453,14 @@ Services
 
 /* small screen layout setup */
 @media screen and (min-width: 676px){
-  .service-center{
+  .services-center{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem 2rem
   }
 }
 @media screen and (min-width: 992px){
-  .service-center{
+  .services-center{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem 2rem
   }
@@ -751,7 +751,7 @@ Blog
   }
   .card-side{
     -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
+    backface-visibility: hidden;
     transition: all 2s linear;
     position: absolute;
     top: 0;
@@ -783,7 +783,7 @@ Blog
   .card-front img{
     height: 13rem;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-top-left-radius: var(--radius);
     border-top-right-radius: var(--radius);
   }
@@ -796,7 +796,7 @@ Blog
     width: 2rem;
     height: 2rem;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-radius: 50%;
   }
   .card-footer p{
